@@ -1,0 +1,58 @@
+html {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+circle {
+    opacity: 0.6;
+}
+
+circle:hover {
+    stroke: black;
+    stroke-width: 3px;
+    opacity: 1;
+}
+
+.tick text {
+    font-size: 20px;
+    fill: #525251;
+}
+
+.tick line {
+    stroke: #8d8d8b;
+}
+
+.title {
+    font-size: 40px;
+}
+
+.axis-label {
+    font-size: 25px;
+}
+
+.box {
+    font-size: 25px;
+}
+
+.names {
+    font-size: 16px;
+}
+
+.stats {
+    font-size: 14px;
+}
+
+#tmouseover {
+    font-size: 18px;
+    text-anchor: right;
+    fill: rgb(196, 209, 214);
+    text-shadow: -5px -5px 0 rgb(255,255,255), 5px -5px 0 rgb(255,255,255), 5px 5px 0 rgb(255,255,255), -5px 5px 0 rgb(255,255,255);
+    text-shadow: -4px -4px 0 rgb(255,255,255), 4px -4px 0 rgb(255,255,255), 4px 4px 0 rgb(255,255,255), -4px 4px 0 rgb(255,255,255);
+    text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, 3px 3px 0 #000, -3px 3px 0 #000;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, -1px 1px 0 #000;
+}

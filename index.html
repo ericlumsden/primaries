@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./main.css">
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        
+    </head>
+
+    <body>
+        <p>The graphs below are meant to accompany my <a href="https://ericlumsden.github.io/blog/blog.html">blog post</a> about building an interactive web graphic by investigating the correlation
+            between a sitting president's approval rating and the number of individuals competing for the opposing party's nomination. <br>
+            Click on the data points to get a readout of the year, sitting President, their approval ratings and a list of the individuals running for the opposing party's nomination.<br>
+            Green dots indicate a sitting President whose party won the election; red indicates a loss for the sitting President's party.<br>
+            Grey is for our current President.
+        </p>
+
+        <svg height="500" width="900"></svg>
+        <svg class="box" height="150" width="1600"></svg>
+        <svg class="chronology" height="500" width="900"></svg>
+        <script src='bundle.js'></script>
+    </body>
+</html>
